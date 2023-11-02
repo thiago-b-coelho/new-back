@@ -7,6 +7,6 @@ const usuarioSchema = new Schema({
   senha: String
 }, { timestamps: true });
 
-const UsuarioModel = mongoose.model('usuarios', usuarioSchema);
+const usuarioModel = mongoose.model('usuarios', usuarioSchema);
 
-module.exports = UsuarioModel;
+module.exports = usuarioModel;
